@@ -21,5 +21,15 @@ public class Main {
 
         String permision = (myAge > 18) ? "Adoult" : "No Adoult";
 
+
+
+        Window window = new Window(30,40,5,"Wood",3,2,"Защолка");
+        window.setWidth(50);
+        System.out.println(window.getArrea());
+        System.out.println(window.toString());
+
     }
 }
+
+//від класу Rectangle створити свій клас
+//стіл, двері, стіна, підлога, криша, город, монітор.
